@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<article>
+	<h1>{{ channel }}</h1>
+	<table class="messages">
+		<tbody>
+			{% for message in messages %}
+			<tr>
+				<td>{{ message.time }}</td>
+				<td>{{ message.author }}</td>
+				<td>{{ message.content }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</article>
+{% endblock %}

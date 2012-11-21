@@ -1,0 +1,69 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:700,400);
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	margin: 15px;
+}
+
+a {
+	color: #303030;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#header {
+	font-family: 'Vollkorn', serif;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #a0a0a0;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#header nav {
+	margin-top: 10px;
+}
+
+#header nav a {
+	padding: 5px;
+	background: #efefef;
+}
+
+table.messages {
+	border-collapse: collapse;
+}
+
+table.messages tr {
+	padding: 5px;
+}
+
+table.messages td:nth-child(1) {
+	width: 15%;
+}
+
+table.messages td:nth-child(2) {
+	width: 10%;
+	text-align: right;
+	padding-right: 15px;
+}
+
+table.messages tr:nth-child(odd) {
+	background: #efefef;
+}
+
+table.messages tr:nth-child(even) {
+	background: #ffffff;
+}
+
+footer {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px solid #a0a0a0;
+}

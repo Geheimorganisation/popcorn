@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<article>
+	<h2>Neuestes Popcorn</h2>
+	<ul>
+		{% for popcorn in popcorns %}
+		<li><a href="/popcorns/{{ popcorn._id }}">{{ popcorn.title }}</a> vom {{ popcorn.time }}</li>
+		{% endfor %}
+	</ul>
+</article>
+{% endblock %}
